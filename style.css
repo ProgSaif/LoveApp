@@ -1,0 +1,20 @@
+body{
+  font-family: Arial;
+  text-align:center;
+  background:#ffe6f0;
+}
+
+#messages{
+  height:300px;
+  overflow:auto;
+  border:1px solid pink;
+  margin:10px;
+  padding:10px;
+  background:white;
+}
+
+video{
+  width:200px;
+  border-radius:10px;
+  margin:10px;
+}
