@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Love Chat ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>❤️ Our Private Chat</h1>
+
+<div id="login">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button id="signup">Sign Up</button>
+  <button id="loginBtn">Login</button>
+</div>
+
+<div id="chat" style="display:none;">
+  <div id="messages"></div>
+  <input id="msgBox" placeholder="Type message">
+  <button id="send">Send</button>
+
+  <hr>
+  <button id="startVideo">Start Video Call</button>
+  <button id="startAudio">Start Audio Call</button>
+
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
